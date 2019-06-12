@@ -15,232 +15,315 @@
 
     <nav class="navbar">
         <h1 class="titulo">Questionario</h1>
+        
     </nav>
 
     <div class="content">
         <div class="content3">
             <div class="content4">
                 <h2>Preguntas</h2>
-                <div class="content5"><h2 class="text1">1</h2></div>
-                <div class="content5"><h2 class="text1">2</h2></div>
-                <div class="content5"><h2 class="text1">3</h2></div>
-                <div class="content5"><h2 class="text1">4</h2></div>
-                <div class="content5"><h2 class="text1">5</h2></div>
-                <div class="content5"><h2 class="text1">6</h2></div>
-                <div class="content5"><h2 class="text1">7</h2></div>
-                <div class="content5"><h2 class="text1">8</h2></div>
-                <div class="content5"><h2 class="text1">9</h2></div>
+                <div class="content5" id="c1"><h2 class="text1">1</h2></div>
+                <div class="content5" id="c2"><h2 class="text1">2</h2></div>
+                <div class="content5" id="c3"><h2 class="text1">3</h2></div>
+                <div class="content5" id="c4"><h2 class="text1">4</h2></div>
+                <div class="content5" id="c5"><h2 class="text1">5</h2></div>
+                <div class="content5" id="c6"><h2 class="text1">6</h2></div>
+                <div class="content5" id="c7"><h2 class="text1">7</h2></div>
+                <div class="content5" id="c8"><h2 class="text1">8</h2></div>
+                <div class="content5" id="c9"><h2 class="text1">9</h2></div>                
             </div>
             <div class="progress">
-                    <p class="titulo">Pogreso</p>
-                        <progress id="html5" max="100" value="50"></progress>
-                        <span></span>
+                    <p class="titulo" id="nomape">Nombre y Apellido</p>
+                        <progress id="progresbar" max="100" value="0"></progress>
+                        <span>Progreso</span>
                     </div>
-        </div>
+            </div>
         <div class="content1">
             <div class="content">
+                    
                 <form action="">
+                    <div class="content2" id="question0">
+                            <h3>Ingrese sus datos</h3>
+                            <div id="content">
+                                <div id="content5" class="login">
+                                        <br>
+                                        <br>
+                                        <input type="text" id="nombre" placeholder="Ingrese su nombres">
+                                        <br>
+                                        <br>
+                                        <input type="text" id="apellido" placeholder="Ingrese su apellido">
+                                        <br>
+                                        <br>
+                                        <input type="button" value="Comenzar" id="enviar" >
+                                </div>
+                            </div>
+                            
+                        </div>
                     <div class="content2" id="question1">
                         <h3>pregunta 1</h3>
                         <div>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod tenetur, placeat voluptatum sed assumenda illo harum expedita ducimus cumque dolorum error a ea sit ad voluptates exercitationem saepe possimus quisquam!</p>
+                            <p>Última letra del alfabeto griego</p>
                         </div>
                         <div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q1" id="" value="Omega">a) Omega
                             </div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q1" id="" value="Alpha">b) Alpha
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q1" id="" value="Zeta">c) Zeta
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q1" id="" value="Delta">d) Delta
                             </div>                     
                         </div>
                     </div>
                     <div class="content2" id="question2">
                         <h3>pregunta 2</h3>
                         <div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore unde molestiae inventore similique in expedita recusandae quod? Sint vel similique, labore asperiores, adipisci ex libero iusto deleniti, vitae minima doloribus?</p>
+                            <p>2.   Reptil cuya piel cambia de color</p>
                         </div>
                         <div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q2" id="" value="Cobra">a) Cobra
                             </div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q2" id="" value="Iguana">b) Iguana
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q2" id="" value="Camaleón">c) Camaleón
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q2" id="" value="Araña">d) Araña
                             </div> 
                         </div>
                     </div>
                     <div class="content2" id="question3">
                         <h3>pregunta 3</h3>
                         <div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, assumenda. Deleniti tenetur porro facilis consequatur blanditiis alias dolore consectetur, est vero illum nisi! Esse reprehenderit perspiciatis minima non saepe magni.</p>
+                            <p>3.   Ciudad italiana conocida como "La Novia del Mar"</p>
                         </div>
                         <div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q3" id="" value="Milán">a) Milán
                             </div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q3" id="" value="Venecia">b) Venecia
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q3" id="" value="Florencia">c) Florencia
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q3" id="" value="Roma">d) Roma
                             </div> 
                         </div>
                     </div>
                     <div class="content2" id="question4">
                         <h3>pregunta 4</h3>
                         <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur minus nihil, iusto molestias odio ea magni nostrum laudantium. Ex non molestias nesciunt repudiandae porro consequuntur? Iure distinctio consectetur eaque cumque?</p>
+                            <p>4.   Número de años que debes tener de casado para festejar tus bodas de oro</p>
                         </div>
                         <div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q4" id="" value="25">a) 25
                             </div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q4" id="" value="50">b) 50
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q4" id="" value="60">c) 60
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q4" id="" value="70">d) 70
                             </div> 
                         </div>
                     </div>
                     <div class="content2" id="question5">
                         <h3>pregunta 5</h3>
                         <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis hic deleniti voluptas, beatae, reiciendis mollitia dolor modi possimus laboriosam consequuntur excepturi dolorum quas? Provident iure placeat saepe alias animi velit.</p>
+                            <p>5.   Horas que, en promedio, duerme al día un gato</p>
                         </div>
                         <div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q5" id="" value="12">a) 12
                             </div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q5" id="" value="13">b) 13
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q5" id="" value="14">c) 14
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q5" id="" value="15">d) 15
                             </div> 
                         </div>
                     </div>
                     <div class="content2" id="question6">
                         <h3>pregunta 6</h3>
                         <div>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, alias suscipit eos sequi est minus. Delectus provident quidem, alias eaque placeat sit tempora id quis, odio sint aut exercitationem molestiae.</p>
+                            <p>6.   Órgano del cuerpo que produce la bilis</p>
                         </div>
                         <div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q6" id="" value="Hígado">a) Hígado
                             </div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q6" id="" value="Páncreas">b) Páncreas
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q6" id="" value="Riñón">c) Riñón
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q6" id="" value="Corazon">d) Corazon
                             </div> 
                         </div>
                     </div>
                     <div class="content2" id="question7">
                         <h3>pregunta 7</h3>
                         <div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, alias? Iste quisquam aliquam ipsa aliquid. Maiores officia fuga cum omnis, amet similique et quia qui iste. Perferendis quae odio unde!</p>
+                            <p>7.   Es la bebida alcohólica más importante de Japón, destilada del arroz</p>
                         </div>
                         <div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q7" id="" value="Umeshu">a) Umeshu
                             </div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q7" id="" value="Sake">b) Sake
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q7" id="" value="Awamori">c) Awamori
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q7" id="" value="Vodka">d) Vodka
                             </div> 
                         </div>
                     </div>
                     <div class="content2" id="question8">
                         <h3>pregunta 8</h3>
                         <div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe at consequatur rerum deleniti provident minima, blanditiis ullam pariatur aperiam quia sunt possimus, beatae praesentium quibusdam, unde recusandae quae corporis cum.</p>
+                            <p>8.   Década en que se terminó de construir el Empire State de Nueva York</p>
                         </div>
                         <div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q8" id="" value="Cincuenta">a) Cincuenta
                             </div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q8" id="" value="Cuarenta">b) Cuarenta
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q8" id="" value="Treinta">c) Treinta
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q8" id="" value="Veinte">d) Veinte
                             </div> 
                         </div>
                     </div>
                     <div class="content2" id="question9">
-                        <h3>pregunta 9</h3>
+                        <h3>9.   Cuales son los colores de la bandera de colombia </h3>
                         <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores adipisci esse commodi explicabo atque, est harum libero voluptate labore voluptatum quo rerum! Illum vel facilis doloremque nam nobis architecto perferendis.</p>
+                            <p></p>
                         </div>
                         <div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q9" id="" value="Amarillo, Azul y Rojo">Amarillo, Azul y Rojo
                             </div>
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q9" id="" value="Verde, Negro y Violeta">Verde, Negro y Violeta
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q9" id="" value="Azul, Blanco y Rojo">Azul, Blanco y Rojo
                             </div> 
                             <div>
-                                <input type="radio" name="" id="">
+                                <input type="radio" name="q9" id="" value="Verde, Amarillo y Rojo">Verde, Amarillo y Rojo
                             </div> 
                         </div>
                     </div>
-                    <div class="content2" id="question10">
-                        <h3>pregunta 10</h3>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste accusantium totam libero molestiae labore magnam officia perspiciatis expedita ipsum facilis similique animi hic, quia, odit commodi fugit, maiores itaque.</p>
+
+                    <div class="content2 login" id="question10">
+                        <h3>Final del Questionario</h3>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="button" value="Enviar" id="terminar">
+                        <br>
+                        <br>
+                    </div>
+
+                    <div class="content2 login" id="question11">
+                            <h3>Resultado</h3>
+                            <br>
+                            <table class="login">
+
+                                    <tr>
+                                      <th>Pregunta N°</th>                                  
+                                      <th>Respuesta contestada</th>                                  
+                                      <th>Respuesta Correcta</th>                                  
+                                    </tr>
+                                  
+                                    <tr>                                  
+                                      <td>1</td>                                  
+                                      <td id="p1"></td>                                  
+                                      <td id="r1">Omega</td>                                  
+                                    </tr>
+                                  
+                                    <tr>                                  
+                                      <td>2</td>                                  
+                                      <td id="p2"></td>                                  
+                                      <td id="r2">Camaleón</td>                                  
+                                    </tr>
+                                  
+                                    <tr>                                  
+                                      <td>3</td>                                  
+                                      <td id="p3"></td>                                  
+                                      <td id="r3">Venecia</td>                                  
+                                    </tr>
+                                    <tr>                                  
+                                      <td>4</td>                                  
+                                      <td id="p4"></td>                                  
+                                      <td id="r4">50</td>                                  
+                                    </tr>
+                                  
+                                    <tr>                                  
+                                      <td>5</td>                                  
+                                      <td id="p5"></td>                                  
+                                      <td id="r5">14</td>                                  
+                                    </tr>
+                                  
+                                    <tr>                                  
+                                      <td>6</td>                                  
+                                      <td id="p6"></td>                                  
+                                      <td id="r6">Hígado</td>                                  
+                                    </tr>
+
+                                    <tr>                                  
+                                      <td>7</td>                                  
+                                      <td id="p7"></td>                                  
+                                      <td id="r7">Sake</td>                                  
+                                    </tr>
+                                  
+                                    <tr>                                  
+                                      <td>8</td>                                  
+                                      <td id="p8"></td>                                  
+                                      <td id="r8">Treinta</td>                                  
+                                    </tr>
+                                  
+                                    <tr>                                  
+                                      <td>9</td>                                  
+                                      <td id="p9"></td>                                  
+                                      <td id="r9">Amarillo, Azul y Rojo</td>                                  
+                                    </tr>
+                                  
+                                  </table>
+                            <br>
+                            <h3 id="calificacion"></h3>
+                            <br>
+                            
                         </div>
-                        <div>
-                            <div>
-                                <input type="radio" name="" id="">
-                            </div>
-                            <div>
-                                <input type="radio" name="" id="">
-                            </div> 
-                            <div>
-                                <input type="radio" name="" id="">
-                            </div> 
-                            <div>
-                                <input type="radio" name="" id="">
-                            </div> 
-                        </div>
-                    </div> 
-                    <div class="content6">
+                     <br>
+                     <br>
+                    <div id="botones" class="content6 login">
                             <input class="boton" type="button" value="anterior" id="previos1"> 
                             <input class="boton" type="button" value="next" id="next1">
                     </div>  
@@ -250,6 +333,8 @@
         </div>
         
     </div>
+
+    <footer></footer>
     
     <script src="main.js"></script>
 </body>
